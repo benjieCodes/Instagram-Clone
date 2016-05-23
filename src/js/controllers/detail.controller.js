@@ -6,9 +6,7 @@ function DetailController ($http, photoURL, $state) {
   function init() {
     $http.get(photoURL).then(function (res) {
       vm.allPhotos = res.data;
-      console.log(res);
     })
-
 
   }
 }

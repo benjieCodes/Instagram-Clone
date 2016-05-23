@@ -5,10 +5,16 @@ function AddController ($http, photoURL, $state) {
   vm.addPhoto = addPhoto;
 
   function addPhoto(photo) {
+
+    if (photo.URL.substring(0,4) === 'http') {
+      photo.URL = photo.URL;
+    } else {
+      photo.URL = 'http://placehold.it/300x300';
+    }
+
     $http.post(photoURL, photo).then(function (res) {
-      photo.URL = '';
-      photo.desc = '';
       $state.go('root.home');
+
     })
   }
 
