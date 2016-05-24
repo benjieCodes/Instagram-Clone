@@ -1,7 +1,6 @@
-
-<div class="container">
+<div class="container" ng-repeat="photo in vm.allPhotos">
   <a href="/#/{{photo._id}}">
-    <figure class="image" ng-repeat="photo in vm.allPhotos" ng-dblclick="vm.liked(photo)">
+    <figure class="image" ng-dblclick="vm.liked(photo)">
       <img ng-src="{{photo.URL}}">
       <span>{{photo.likes}}</span>
       <span>{{vm.likeDesc}}

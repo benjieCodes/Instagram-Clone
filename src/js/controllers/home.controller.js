@@ -4,8 +4,6 @@ function HomeController ($http, photoURL) {
   vm.liked = liked;
   vm.likeDesc = 'Likes';
 
-
-
   init()
 
   function init() {

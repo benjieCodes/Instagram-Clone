@@ -11,7 +11,7 @@ function config ($stateProvider, $urlRouterProvider) {
       controller: 'HomeController as vm'
     })
     .state('root.detail', {
-      url: '/detail',
+      url: '/detail/:photoID', 
       templateUrl: 'templates/detail.tpl.html',
       controller: 'DetailController as vm'
     })
