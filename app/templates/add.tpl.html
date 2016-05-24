@@ -1,5 +1,6 @@
 <form class="form" ng-submit="vm.addPhoto(photo)">
   <input type="text" class="input" placeholder="Upload photo URL here" ng-model="photo.URL">
   <input type="text" class="input" placeholder="Write a caption..." ng-model="photo.desc" >
+  <span ng-model="photo.likes = 0"></span>
   <button class="button">Submit</button>
 </form>

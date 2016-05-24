@@ -1,7 +1,6 @@
 function AddController ($http, photoURL, $state) {
 
   let vm = this;
-
   vm.addPhoto = addPhoto;
 
   function addPhoto(photo) {
