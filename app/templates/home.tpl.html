@@ -2,6 +2,8 @@
     <figure class="image" ng-dblclick="vm.liked(photo)">
       <img ng-src="{{photo.URL}}">
       <span class="photoLikes">{{photo.likes}} {{photo.likeDesc}}</span>
-      <a href="/#/detail/{{photo._id}}"><span>Edit</span></a>
+      <a href="/#/detail/{{photo._id}}">
+        <span class="edit">Edit</span>
+      </a>
     </figure>
 </div>

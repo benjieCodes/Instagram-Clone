@@ -8,23 +8,76 @@ nav {
 figure {
   margin: 20px;
   width: 300px;
+  height: 300px;
   position: relative;
   float: left;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.edit {
+  position: absolute;
+  border: 1px solid black;
+  top: 10px;
+  left: 10px;
+  padding: 3px;
+  color: white;
+  background-color: lightgrey;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.divider {
+  padding: 0, 5px, 0, 5px;
+  font-size: 40px;
+  font-weight: lighter;
 }
 
 .photoLikes {
   position: absolute;
+  border: 1px solid black;
   top: 10px;
   right: 10px;
+  padding: 3px;
+  color: white;
+  background-color: lightgrey;
 }
 
-.nav.title {
+.benjiegram{
   font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  padding-left: 20px;
+  color: RGBA(34, 35, 36, 1.00);
+}
+
+.nav-item.plus {
+  border: 1px solid black;
+  height: 25px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.fa-plus {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.addPhoto {
+  margin-bottom: 1px;
 }
 
 .detail img {
   width: 500px;
 }
+
+.containerAdd {
+  margin: 30px;
+}
+
 
 footer {
   margin: 10px auto;

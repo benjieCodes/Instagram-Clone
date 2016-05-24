@@ -1,5 +1,12 @@
-<form class="form" ng-submit="vm.addPhoto(photo)">
-  <input type="text" class="input" placeholder="Upload photo URL here" ng-model="photo.URL">
-  <input type="text" class="input" placeholder="Write a caption..." ng-model="photo.desc" >
-  <button class="button">Submit</button>
-</form>
+<div class="containerAdd">
+  <form class="form" ng-submit="vm.addPhoto(photo)">
+    <h2 class="title"> Add Photo: </h2>
+    <p class="control">
+      <input type="text" class="input" placeholder="Upload photo URL here" ng-model="photo.URL">
+    </p>
+    <p class="control">
+      <textarea type="text" class="textarea" placeholder="Write a caption..." ng-model="photo.desc" ></textarea>
+    </p>
+    <button class="button">Submit</button>
+  </form>
+</div>

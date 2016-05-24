@@ -13,7 +13,6 @@ function HomeController ($http, photoURL) {
   }
 
   function liked (photo) {
-
     let totalLikes = photo.likes;
     photo.likeDesc = (totalLikes === 0) ? "Like" : "Likes";
     photo.likes = totalLikes + 1;
