@@ -5,9 +5,17 @@ nav {
   text-align: center;
 }
 
-footer {
-  margin: 10px auto;
-  text-align: center;
+figure {
+  margin: 20px;
+  width: 300px;
+  position: relative;
+  float: left;
+}
+
+.photoLikes {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .nav.title {
@@ -16,4 +24,10 @@ footer {
 
 .detail img {
   width: 500px;
+}
+
+footer {
+  margin: 10px auto;
+  text-align: center;
+  clear: both;
 }

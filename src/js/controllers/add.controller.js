@@ -5,6 +5,9 @@ function AddController ($http, photoURL, $state) {
 
   function addPhoto(photo) {
 
+    photo.likes = 0
+    photo.likeDesc = 'Likes'
+
     if (photo.URL.substring(0,4) === 'http') {
       photo.URL = photo.URL;
     } else {

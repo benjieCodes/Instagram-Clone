@@ -14,12 +14,11 @@ function HomeController ($http, photoURL) {
 
   function liked (photo) {
 
-    let totalLikes = Number(photo.likes);
-    vm.likeDesc = (totalLikes === 0) ? "Like" : "Likes";
+    let totalLikes = photo.likes;
+    photo.likeDesc = (totalLikes === 0) ? "Like" : "Likes";
     photo.likes = totalLikes + 1;
     $http.put(photoURL + photo._id, photo);
   }
-
 
 }
 HomeController.$inject = ['$http', 'photoURL'];
