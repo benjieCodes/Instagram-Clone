@@ -1,11 +1,12 @@
 # Project Description
 
-This is a basic template for starting projects.
+Make an Instagram!
+
+## Learning Objectives
+
+- Demonstrate a full understanding of AngularJS, Models, ViewModels, Controllers and UI Router
+- Demonstrate an understanding of how to build an application from scratch
 
 ## Deployment
 
-To deploy your project just run:
-
-- Make sure you have a lowercase folder name
-- `npm run deploy`
-- You should have a 'surge.sh' link now for your project
+(http://tiy-abrambenjsongsong-instagram-clone.surge.sh)
