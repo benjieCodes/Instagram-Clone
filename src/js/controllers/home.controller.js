@@ -2,7 +2,9 @@ function HomeController ($http, photoURL) {
 
   let vm = this;
   vm.liked = liked;
-  
+  vm.likeDesc = 'Likes';
+
+
 
   init()
 
@@ -12,8 +14,12 @@ function HomeController ($http, photoURL) {
     })
   }
 
-  function liked () {
+  function liked (photo) {
 
+    let totalLikes = Number(photo.likes);
+    vm.likeDesc = (totalLikes === 0) ? "Like" : "Likes";
+    photo.likes = totalLikes + 1;
+    $http.put(photoURL + photo._id, photo);
   }
 
 
