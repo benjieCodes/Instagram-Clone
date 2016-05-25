@@ -8,7 +8,7 @@ function AddController ($http, photoURL, $state) {
     photo.likes = 0
     photo.likeDesc = 'Likes'
 
-    if (photo.URL.substring(0,4) === 'http') {
+    if (photo.URL.substring(0,4) === 'http' || photo.URL.substr(-4) === 'jpeg' || photo.URL.substr(-3) === 'png')   {
       photo.URL = photo.URL;
     } else {
       photo.URL = 'http://placehold.it/300x300';
@@ -16,7 +16,6 @@ function AddController ($http, photoURL, $state) {
 
     $http.post(photoURL, photo).then(function (res) {
       $state.go('root.home');
-
     })
   }
 

@@ -17,10 +17,10 @@ figure {
 
 .edit {
   position: absolute;
-  border: 1px solid black;
   top: 10px;
   left: 10px;
   padding: 3px;
+  font-weight: 600;
   color: white;
   background-color: lightgrey;
 }
@@ -43,6 +43,7 @@ figure {
   top: 10px;
   right: 10px;
   padding: 3px;
+  font-weight: 600;
   color: white;
   background-color: lightgrey;
 }
@@ -55,19 +56,20 @@ figure {
 }
 
 .nav-item.plus {
-  border: 1px solid black;
+  margin-left: 30px;
   height: 25px;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 18px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 .fa-plus {
-  padding-left: 5px;
-  padding-right: 10px;
+  padding-right: 3px;
 }
 
 .addPhoto {
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 
 .detail img {
