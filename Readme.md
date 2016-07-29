@@ -14,4 +14,4 @@ Created a mock Instagram page
 
 ## Deployment
 
-(http://tiy-abrambenjsongsong-instagram-clone.surge.sh)
+Domain link: (https://benjiegram.surge.sh)
