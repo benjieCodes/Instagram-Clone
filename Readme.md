@@ -1,11 +1,16 @@
-# Project Description
+# Benjiegram
+Created a mock Instagram page
 
-Make an Instagram!
+### After build, taught me how to:
+* Demonstrate a strong understanding on how to work with AngularJS Framework
+* Demonstrate how to build app using Models, ViewModels, Controllers (MVC approach)
+* Understand how to create different states for a multiple page website
 
-## Learning Objectives
-
-- Demonstrate a full understanding of AngularJS, Models, ViewModels, Controllers and UI Router
-- Demonstrate an understanding of how to build an application from scratch
+### Things to add:
+* register/login authorization for multiple users
+* friends list
+* followers list
+* responsive web design
 
 ## Deployment
 
